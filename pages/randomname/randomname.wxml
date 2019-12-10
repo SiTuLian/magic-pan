@@ -1,0 +1,22 @@
+<!--pages/randomname/randomname.wxml-->
+<introduction imageSrc="{{imageSrc}}" 
+              featuresIntroduction="{{featuresIntroduction}}" 
+              btnName="功能简介"
+></introduction>
+<view class="flex">
+  <button class="btn" size="mini" bindtap="toPreviewPage">查看</button>
+  <button class="btn" size="mini" bindtap="clearSexName">清空</button>
+  <button class="btn" size="mini" bindtap="hireName" disabled="{{hireNameDisable}}" >录用</button>
+  <button class="btn" size="mini" bindtap="toSetPage">设置</button>
+</view>
+<view class="wraper">
+  <scroll-view class="scroll-box" scroll-y="true" >
+    <view class="scroll-flex">
+      <block wx:for="{{sexNameArr}}" wx:key="index" >
+        <checkbox-sex-name sexNameItem="{{item}}" bind:selectName="handleSelectName" class="idItem"></checkbox-sex-name>
+      </block>
+    </view>
+  </scroll-view>
+</view>
+
+<button class="btn-size" type="primary" bindtap="printSexName">输出</button>

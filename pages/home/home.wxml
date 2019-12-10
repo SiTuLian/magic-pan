@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <swiper indicator-dots="{{indicatorDots}}" 
+          autoplay="{{autoplay}}"
+          interval="{{interval}}"
+          duration="{{duration}}"
+          circular="{{circular}}"
+          >
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="home-title">功能区</view>
+  <features features="{{features}}"></features>
+</view>

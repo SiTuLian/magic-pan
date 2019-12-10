@@ -1,0 +1,9 @@
+<!--components/features/features.wxml-->
+<view class="features">
+  <view class="features-item" wx:for="{{features}}" wx:key="{{item}}" 
+    bindtap="toNewPage" data-index="{{index}}"
+  >
+    <image class="image" src="{{item.iconPath}}"  mode="aspectFit"></image>
+    <text>{{item.featuresName}}</text>
+  </view>
+</view>

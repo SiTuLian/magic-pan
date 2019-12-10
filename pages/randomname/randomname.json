@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "introduction": "/components/introduction/introduction",
+    "checkbox-sex-name": "/components/checkboxsexname/checkboxsexname"
+  },
+  "navigationBarTitleText": "随机起名"
+}

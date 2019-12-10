@@ -1,0 +1,27 @@
+/* pages/home/home.wxss */
+.swiper-item{
+  height: 100%;
+}
+
+.swiper-item1{
+  background: red;
+}
+
+.swiper-item2{
+  background: green;
+}
+
+.swiper-item3{
+  background: pink;
+}
+
+.home-title{
+  margin-top: 20rpx;
+  background: rgba(190, 190, 190, 0.185);
+  padding: 20rpx;
+  
+}
+
+.gn{
+  display: flex;
+}

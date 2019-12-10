@@ -1,0 +1,39 @@
+<!--pages/randomname/children/preview/preview.wxml-->
+
+<view class="flex view-box-base-style">
+  <view class="view-base-style {{active==0 ? 'active' : ''}}" 
+        bindtap="moveScrollBox" 
+        data-scroll-num="0">姓氏一览</view>
+  <view class="view-base-style {{active==1 ? 'active' : ''}}" 
+        bindtap="moveScrollBox" 
+        data-scroll-num="1">名字一览</view>
+  <view class="view-base-style {{active==2 ? 'active' : ''}}" 
+        bindtap="moveScrollBox" 
+        data-scroll-num="2">已录用</view>
+</view>
+<view class="scroll-box {{active==0 ? 'marginLeft0' : active==1 ? 'marginLeft1' : 'marginLeft2'}}" >
+ 
+  <scroll-view class="scroll" scroll-y="true">
+    <sex-name message="{{sex}}"></sex-name>
+  </scroll-view>
+  <scroll-view class="scroll" scroll-y="true">
+    <sex-name message="{{name}}"></sex-name>
+  </scroll-view>
+  
+  <view class="view-scroll">
+    <view class="flex">
+      <button disabled="{{isRemoveBtnDisable}}" bindtap="removeHireNameItem">删除</button>
+      <button bindtap="removeAllHireName">全部删除</button>
+    </view>
+    <scroll-view class="scroll-height"  scroll-y="true">
+      <view class="scroll-flex" >
+        <block wx:for="{{sexNameArr}}" wx:key="index">
+          <checkbox-sex-name sexNameItem="{{item}}" bind:selectName="clearSelectName" class="idItem"></checkbox-sex-name>
+        </block>
+      </view>
+    </scroll-view>
+
+  </view>
+  
+   
+</view>

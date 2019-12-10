@@ -1,0 +1,42 @@
+{
+  "pages": [
+   
+  
+    "pages/home/home",
+    "pages/user/user",
+    "pages/randomname/randomname",
+    "pages/storytime/storytime",
+    "pages/characterrelationships/characterrelationships",
+    "pages/atlas/atlas",
+    "pages/noveloutline/noveloutline",
+    "pages/dataediting/dataediting",
+    "pages/randomname/children/preview/preview",
+    "pages/randomname/children/set/set"
+   
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000000",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/assets/tabbar/home.png",
+        "selectedIconPath": "/assets/tabbar/homeActive.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "/assets/tabbar/personal.png",
+        "selectedIconPath": "/assets/tabbar/personalActive.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap4.json"
+}

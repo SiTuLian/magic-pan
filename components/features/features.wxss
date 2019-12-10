@@ -1,0 +1,21 @@
+/* components/features/features.wxss */
+.features{
+  margin-top: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.features-item{
+  width: 200rpx;
+  height: 200rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  width: 160rpx;
+}

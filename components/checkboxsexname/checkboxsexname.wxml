@@ -1,0 +1,4 @@
+<!--components/checkboxsexname/checkboxsexname.wxml-->
+ <view class="sex-name" >
+    <text bindtap="handleSelectName" data-name="{{sexNameItem}}" class="{{isSelectStyle ? 'select-style' : '' }}">{{sexNameItem}}</text>
+  </view>

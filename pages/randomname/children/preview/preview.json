@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "sex-name": "/components/sexname/sexname",
+    "checkbox-sex-name": "/components/checkboxsexname/checkboxsexname"
+  },
+  "navigationBarTitleText": "预览"
+}

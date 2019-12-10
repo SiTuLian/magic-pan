@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "features": "/components/features/features"
+  },
+  "navigationBarTitleText": "神来之笔"
+}

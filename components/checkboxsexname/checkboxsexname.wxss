@@ -1,0 +1,17 @@
+/* components/checkboxsexname/checkboxsexname.wxss */
+.sex-name{
+  
+  margin: 70rpx 0 0 20rpx;
+}
+
+.sex-name text{
+  box-sizing: border-box;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  border: 1rpx solid #cccccc;
+}
+
+.select-style{
+  background: rgb(74, 187, 74);
+  color: #ffffff;
+}

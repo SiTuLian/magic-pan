@@ -1,0 +1,60 @@
+/* pages/randomname/children/preview/preview.wxss */
+.flex{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+.view-box-base-style{
+  margin-top: 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+.view-base-style{
+  width: 33%;
+}
+
+.active{
+  border-bottom: 1rpx solid #1296db;
+  color: #1296db;
+}
+
+.scroll-box{
+  display: flex;
+  overflow: hidden;
+  margin-top: 20rpx;
+  width: 300%;
+}
+
+.marginLeft0{
+  margin-left: 0%;
+}
+
+.marginLeft1{
+  margin-left: -100%;
+}
+
+.marginLeft2{
+  margin-left: -200%;
+}
+
+.scroll, .view-scroll{
+  width: 33.3%;
+  flex-shrink: 0;
+  margin: 0 auto;
+  height: 900rpx;
+}
+
+.scroll-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.scroll-height{
+  height: 800rpx;
+}

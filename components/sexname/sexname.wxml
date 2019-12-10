@@ -1,0 +1,6 @@
+<!--components/sexname/sexname.wxml-->
+<view class="flex">
+  <block wx:for="{{message}}" wx:key="{{index}}">
+    <view class="flex-item">{{item}}</view>
+  </block>
+</view>

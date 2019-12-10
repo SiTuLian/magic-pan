@@ -1,0 +1,15 @@
+/* components/sexname/sexname.wxss */
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.flex-item{
+  width: 20%;
+  flex-shrink: 0;
+  margin-top: 20rpx;
+  border: 1px solid #ccc;
+  
+}

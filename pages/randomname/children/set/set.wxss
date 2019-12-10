@@ -1,0 +1,23 @@
+/* pages/randomname/children/set/set.wxss */
+.input{
+  border: 1px solid #1296db;
+  flex:2;
+  padding-left: 30rpx;
+}
+
+.switch{
+  flex: 2;
+}
+
+.margin{
+  margin-top: 20rpx;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-item{
+  flex: 1;
+  text-align: center;
+}

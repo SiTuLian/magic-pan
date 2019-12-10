@@ -1,0 +1,33 @@
+/* components/introduction/introduction.wxss */
+.introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-box{
+  height: 200rpx;
+}
+
+.image{
+  height: 100%;
+  
+}
+
+.btn{
+  width: 100%;
+}
+
+.text{
+  margin-top: 10rpx;
+  font-size: 32rpx;
+  width: 90%;
+  text-indent: 2em;
+  transition: opacity 1s, height 1s;
+  overflow: hidden;
+}
+
+.display-none{
+  opacity: 0;
+  height: 0px;
+}

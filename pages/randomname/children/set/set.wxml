@@ -1,0 +1,12 @@
+<!--pages/randomname/children/set/set.wxml-->
+<view class="flex margin">
+  <text class="flex-item">一次性输出：</text>
+  <input class="input" type="number" placeholder="一次性输出的姓名个数" 
+          bindblur="getInputValue"
+  ></input>
+</view>
+
+<view class="flex margin">
+  <text class="flex-item">同名屏蔽</text>
+  <switch class="switch" bindchange="changeSwitch" type="switch" checked="{{bool}}"></switch>
+</view>

@@ -1,0 +1,8 @@
+<!--components/introduction/introduction.wxml-->
+<view class="introduction">
+  <view class="image-box">
+    <image class="image" src="{{imageSrc}}" mode="aspectFit"></image>
+  </view>
+  <button class="btn" bindtap="showText">{{btnName}}</button>
+  <text class="text {{btnCount==0?'display-none':''}}">{{featuresIntroduction}}</text>
+</view>
